@@ -1,0 +1,108 @@
+Base de Dados
+Classe Positiva: 98882 (11.99%%)
+Classe Negativa: 726118 (88.01%)
+Total: 825000
+
+Base de Dados balanceada por 7 Folds
+Classe Positiva: 98882 (48.80%)s
+Classe Negativa: 103731(51.20%)
+Total: 202613
+
+TimeStamp
+Estatística t: 0.0
+Graus de liberdade: 127324.20301551816
+T crítico: 2.5758679184930418
+P-valor: 1.0
+Não rejeitamos a hipótese nula: As médias não são significativamente diferentes.
+
+ID
+Estatística t: 98.60904583451335
+Graus de liberdade: 109739.07967038374
+T crítico: 2.5758679184930418
+P-valor: 0.0
+Rejeitamos a hipótese nula: As médias são significativamente diferentes.
+
+DLC
+Estatística t: -306.66562923827814
+Graus de liberdade: 730792.3978848093
+T crítico: 2.5758360312593997
+P-valor: 0.0
+Rejeitamos a hipótese nula: As médias são significativamente diferentes.
+
+
+[Timestamp ID DLC]
+
+[0.1 0.5 0.4] (WOA)
+A média da acurácia é 0.9747842424242424
+A média da precisão é 0.7845682521634767
+A média do recall é 0.7411271783618909
+A média do f1-score é 0.7588301407241765
+
+[0. 0.6 0.4] (GWO)
+A média da acurácia é 0.9747842424242424
+A média da precisão é 0.7845682521634767
+A média do recall é 0.7411271783618909
+A média do f1-score é 0.7588301407241765
+
+[0. 0.6 0.4] (FFA)
+
+
+[1 0 0] True
+Acurácia: 61.69%
+Precisão: 05.18%
+Recall: 22.30%
+F1-Score: 07.98%
+
+[0 1 0] True
+Acurácia: 95.39%
+Precisão: 89.19%
+Recall: 81.68%
+F1-Score: 83.99%
+
+[0 0 1] True
+Acurácia: 77.22%
+Precisão: 00.00%
+Recall: 00.00%
+F1-Score: 00.00%
+
+[1 1 0] True
+Acurácia: 88.75%
+Precisão: 68.11%
+Recall: 93.59%
+F1-Score: 75.32%
+
+[1 0 1] True
+Acurácia: 66.64%
+Precisão: 02.63%
+Recall: 16.32%
+F1-Score: 04.36%
+
+[0 1 1] True
+Acurácia: 95.59%
+Precisão: 89.38%
+Recall: 82.49%
+F1-Score: 84.49%
+
+[1 1 1] True
+Acurácia: 88.82%
+Precisão: 67.14%
+Recall: 96.21%
+F1-Score: 75.52%
+
+
+
+Wave 3: Agentes = 50; Iterações = 5;
+GWO
+[0. 0.5 0.5]
+Acurácia: 0.955896
+Precisão: 0.893924
+Recall: 0.824913
+F1-Score: 0.844986
+
+FFA
+[0.1 0.4 0.5]
+Acurácia: 0.955897
+Precisão: 0.893924
+Recall: 0.824915
+F1-Score: 0.844988
+Tempo: 130m
